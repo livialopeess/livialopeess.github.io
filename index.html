@@ -7,10 +7,14 @@
 
     <body>
     <header>
+        <style type="text/css">
+            a:link{text-decoration:none;}
+        </style>
+        
         <div id='logodiv'>
             <img id='logo' src="img/images (1).png" alt='Desenvolvimento Sustentável '/>
         </div>
-         <ul id='menu'>
+         <ul id="menu">
              <li><a href="#projeto">Projeto</a></li>
              <li><a href="#selecao">Seleção</a></li>
              <li><a href="#empresas">Empresas</a></li>
@@ -22,11 +26,11 @@
               <h1 id='titulo'>Desenvolvimento sustentável corporativo</h1>
              <h2 id='subtitulo'>A preocupação com o meu ambiente vem crescendo cada vez mais. Com isso em mente, muitas empresas implementaram projetos relacionados à sustentabilidade para melhorar a eficiência da produção. Saiba como implementar essa ideia!
     </h2>
-    <a id='acao' href='http://www.microsoft.com' target="blanck">Começar</a>
+    <a id='acao' href="#projeto" >Começar</a>
         </div>
-        <section id='projeto'>
+        <section class="destaque" id='projeto'>
     <div class="coluna dois">
-         <iframe padding-top="5%" width="100%" height="315" src="https://www.youtube.com/embed/w_LlKhUMPmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe padding-top="5%" width="100%" height="60%" src="https://www.youtube.com/embed/w_LlKhUMPmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>  
     <div class="coluna dois">   
         <h3 class="centralizado" id='projeto'>Projeto</h3>
@@ -35,48 +39,49 @@
         </p>
     </div>
         </section>
-        <section id='selecao'>
+        <section class="centralizado" id='selecao'>
                 <h3 class="centralizado"  id= selecaoo>Seleção</h3>
-                <div class="coluna quatro">
+        <div class="coluna dois">
                 <img class='icone'src="img/ener.png" alt="Energia Renovável" />
                     <h4>Energia Renovável</h4>
                    <p>A energia solar desempenha um papel extremamente importante na redução do impacto ambiental global. Além de proteger o meio ambiente, também traz muitos benefícios para instituições comerciais, indústria, propriedade rural e serviços públicos. 
                        A energia solar também possui vantagens como o pouco espaço ocupado por sistemas fotovoltaicos e a fácil instalação em diferentes áreas.
                         Além de trazer o retorno do investimento nos primeiros seis anos, também pode economizar até 95% da conta de energia elétrica. A vida útil é superior a 30 anos.</p>
-            </div>
-            <div  class="coluna quatro">
+         </div>
+         <div  class="coluna dois">
                 <img class='icone' src='img/reci.png'alt='reciclagem' />
                 <h4>Reciclagem</h4>
                 <p>Muitas indústrias estão reciclando materiais para reduzir os custos de produção , por exemplo: muitos materiais como o alumínio podem ser reciclados e a taxa de reciclagem é próxima de 100% de reaproveitamento. Após o derretimento, retorna à linha de produção da indústria de embalagens, reduzindo assim os custos da empresa.
                </p>
-            </div>
-         <div  class="coluna quatro">
+        </div>
+        </section>
+        <section class="centralizado">
+         <div class="coluna dois">
             <img class='icone' src='img/bio.jpg' alt='Produtos ecológico' />
             <h4>Produtos biodegradáveis</h4>
             <p>Produtos biodegradáveis são produtos mais fáceis de decompor e, portanto, são menos nocivos à natureza, sendo considerados alternativas sustentáveis. Quando uma marca usa o termo "biodegradável", isso significa que os ingredientes no produto são orgânicos. Dessa maneira, os agentes biológicos naturais podem destruir os resíduos e evitar a poluição do solo e da água.
             </p>
          </div>
-         <div  class="coluna quatro">
+         <div class="coluna dois">
             <img class='icone' src='img/papeis.jpg' alt='Papéis' />
             <h4>Redução de impressões</h4>
             <p>Uma das ações mais simples de executar é reduzir o papel da empresa. Essa abordagem é muito importante para reduzir custos, aumentar a produtividade e simplificar os processos internos da empresa. Estamos na era digital. A maioria das informações que consumimos e dos procedimentos pode ser realizada por meio de diversos dispositivos.. Então, por que não digitalizar documentos comerciais? 
                 Muitas empresas ainda não têm esse hábito, mas essa prática pode trazer muitos benefícios. Além de reduzir o uso de papel, a digitalização também será responsável por armazenar documentos com mais segurança, evitando a perda e a deterioração de informações importantes.
                 </p>
          </div>
-        
-        </section >
-        <section id='empresas'>
-         <h3 class="centralizado" class='titulo' >Empresas que adotaram práticas sustentáveis</h3>
-          <p>Veja empresas que implementaram a prática da sustentabilidade em seus negócios</p>
+        </section>
+        <section class="destaque" class= centralizado id="empresas">
+         <h2 class="centralizado" class='titulo' >Empresas que adotaram práticas sustentáveis</h2>
+          <p class="centralizado">Veja empresas que implementaram a prática da sustentabilidade em seus negócios</p>
         <div class='coluna tres'>
-            <img class='imgemp' src="img/impressora.jpg" alt='Gráfica' />
+            <img width="100%" height="30%" class='imgemp' src="img/impressora.jpg" alt='Gráfica' />
             <h4>Gráfica Ekofootprint</h4>
             <p>José Cláudio Fonseca abriu a gráfica Ekofootprint pensando em diminuir esse problema. Seu negócio utiliza máquinas que imprimem o papel com cera, que é mais sustentável. O papel também é feito à base do bagaço da cana.
 
             Só para você ter uma ideia, uma impressora com tinta normal gasta 12 cartuchos e imprime 35 mil folhas. A de cera usa apenas 4 e imprime 50 mil. Além de gerar menos poluição, o resultado rende economia.</p>
         </div>
         <div class='coluna tres'>
-            <img class='imgemp' src='img/fazenda.jpg' alt='Energia' />
+            <img width="100%" height="30%" class='imgemp' src='img/fazenda.jpg' alt='Energia' />
             <h4>Trivellato Geradores</h4>
             <p>Algumas empresas que adotaram práticas sustentáveis fazem dela uma oportunidade de negócio. É o caso da Trivellato Geradores.
 
@@ -84,7 +89,7 @@
          
         </div>
         <div class='coluna tres'>
-            <img class='imgemp' src='img/bar.jpg'alt='Vidro' />
+            <img width="100%" height="30%" class='imgemp' src='img/bar.jpg'alt='Vidro' />
             <h4>Arga Vidros</h4> 
             <p>Célio Mendes era dono de um bar em João Pinheiro, Norte de Minas, há mais de 15 anos. Preocupado com os cascos de vidros de refrigerantes e cervejas que eram descartados, procurou as indústrias para tentar vendê-los.
 
@@ -94,7 +99,7 @@
         </div>
         </section>
         
-        <section id='sobre'  class='destaque'>
+        <section id='sobre'>
             <div class="coluna dois">
             <h3 class="centralizado">Sobre mim</h3>
             <p>Lívia Lopes Barreto</p>

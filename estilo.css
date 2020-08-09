@@ -1,10 +1,16 @@
 html, body {
   margin: 0px;
-  background-color:whitesmoke;
   }
-
+  header{
+    background-color: rgb(242, 237, 208);
+    color: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
 #imagem_fundo {
-        background: url(fundoo.jpg);
+        background: url(img/fundoo.jpg);
         background-size:cover ;
         height: 125%;
         text-align: center;
@@ -26,7 +32,6 @@ html, body {
 p{
   color:black;
   font-size: 22px;
-  padding: 20px;
  }
 .icone{
   width: 120px;
@@ -44,6 +49,7 @@ p{
   text-shadow:1px 1px white;
   font-size: 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 0;
 }
 #selecao{
   font-size: 25px;
@@ -54,9 +60,9 @@ p{
   font-size: 40px;
   text-align: center;
 }
-#Empresas{
-padding: 20%;
-background-color: #f7f7f7;
+.destaque{
+padding: 10%;
+background-color:rgb(242, 237, 208);
 }
 section{
   padding: 10%;
@@ -68,7 +74,7 @@ section{
 }
 .coluna{
   float: left;
- padding: 5% 5%;
+ padding: 0 5%;
  position:relative;
  width:40%;
 }
@@ -89,26 +95,20 @@ section{
 .justificado{
   text-align: justify;
 }
-header{
-  background-color: rgb(242, 237, 208);
-  color: black;
-  height: 80px;
-  width: 100%;
-  position: fixed;
-  z-index: 10;
-}
+
 #logo{
-width: 91px;
+width: 100px;
 position: absolute;
-top: 10px;
-margin-left: 5%;
+top: 1px;
+left: 100px;
 }
 #menu{
   float: right;
   margin-right: 5%;
   list-style: none;
-  
-}
+  font-style: oblique;
+  color: white;
+  }
 li{
   float: left;
   padding: 20 10 20 10;
