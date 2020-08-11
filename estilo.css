@@ -11,6 +11,10 @@ html, body {
     border-top: darkgreen;
     
   }
+  .corfundo{
+    color: rgb(250, 168, 15);
+    text-decoration: none;
+  }
 #imagem_fundo {
         background: url(img/verde.jpg);
         background-size:cover ;
